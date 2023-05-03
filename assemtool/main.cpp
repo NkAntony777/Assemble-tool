@@ -5,6 +5,7 @@
 #include<Physics.h>
 #include<ui_English.h>
 #include<secondwidgetebook.h>
+#include<Littletool.h>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -12,6 +13,7 @@ int main(int argc, char *argv[])
     ast Mainpage;
     Physics Physicspage;
     secondwidgetebook sec;
+    Littletool Littlepage;
     Englishpage.setWindowTitle("英语");
     Physicspage.setWindowTitle("物理");
     sec.setWindowTitle("Ebook");
@@ -31,6 +33,7 @@ int main(int argc, char *argv[])
 
     QObject::connect(&Physicspage,SIGNAL(gobackMain()),&Mainpage,SLOT(recieveSFFback()));
 
+    QObject::connect(&Mainpage,SIGNAL(gotoLitt()),&Littlepage,SLOT(ReciMain()));
     ast w;
     w.show();
     return a.exec();

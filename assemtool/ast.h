@@ -26,10 +26,12 @@ private slots:
     void recieveSFFback();
     void on_pushButton_3_clicked();
 
+    void on_littletool_clicked();
+
 signals:
     void gotoEnglish();
     void gotoPhysics();
-
+    void gotoLitt();
 private:
     Ui::ast *ui;
 

@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>C:/Users/Anthony/Pictures/Mainnew.jpg</file>
         <file>C:/Users/Anthony/Pictures/Englishnew1.jpg</file>
+        <file>C:/Users/Anthony/Pictures/Li.jpg</file>
+        <file>C:/Users/Anthony/Pictures/LIi.jpg</file>
     </qresource>
 </RCC>

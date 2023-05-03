@@ -11,6 +11,7 @@ CONFIG += c++17
 
 SOURCES += \
     English.cpp \
+    Littletool.cpp \
     Physics.cpp \
     main.cpp \
     ast.cpp \
@@ -18,12 +19,14 @@ SOURCES += \
 
 HEADERS += \
     English.h \
+    Littletool.h \
     Physics.h \
     ast.h \
     secondwidgetebook.h
 
 FORMS += \
     English.ui \
+    Littletool.ui \
     Physics.ui \
     ast.ui \
     secondwidgetebook.ui

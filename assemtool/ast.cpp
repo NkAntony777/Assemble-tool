@@ -44,3 +44,10 @@ void ast::on_pushButton_3_clicked()
     emit gotoPhysics();
 }
 
+
+void ast::on_littletool_clicked()
+{
+    this->hide();
+    emit gotoLitt();
+}
+
