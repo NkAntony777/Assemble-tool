@@ -60,3 +60,18 @@ void Littletool::on_pushButton_5_clicked()
 
 }
 
+
+void Littletool::on_pushButton_6_clicked()
+{
+    QUrl url("https://www.chaonengsou.com/");
+    QDesktopServices::openUrl(url);
+}
+
+
+void Littletool::on_pushButton_7_clicked()
+{
+    QUrl url("https://www.pexels.com/search/pixel/");
+    QDesktopServices::openUrl(url);
+
+}
+
