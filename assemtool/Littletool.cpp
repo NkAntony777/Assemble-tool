@@ -75,3 +75,11 @@ void Littletool::on_pushButton_7_clicked()
 
 }
 
+
+void Littletool::on_pushButton_8_clicked()
+{
+    QUrl url("https://www.toolfk.com/nav.html");
+    QDesktopServices::openUrl(url);
+
+}
+
