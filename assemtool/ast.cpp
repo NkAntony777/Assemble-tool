@@ -63,3 +63,13 @@ void ast::recisec()
     this->show();
 
 }
+void ast::refi()
+{
+    this->show();
+}
+void ast::on_littletool_2_clicked()
+{
+    this->hide();
+    emit gotofi();
+}
+

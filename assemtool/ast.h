@@ -22,17 +22,20 @@ public:
 private slots:
     void on_EnglishButton_clicked();
     void recieveSFEback();
-
+    void refi();
     void recieveSFFback();
     void on_pushButton_3_clicked();
 
     void on_littletool_clicked();
     void recilb();
     void recisec();
+    void on_littletool_2_clicked();
+
 signals:
     void gotoEnglish();
     void gotoPhysics();
     void gotoLitt();
+    void gotofi();
 private:
     Ui::ast *ui;
 

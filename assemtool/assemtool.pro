@@ -13,6 +13,7 @@ SOURCES += \
     English.cpp \
     Littletool.cpp \
     Physics.cpp \
+    fish.cpp \
     main.cpp \
     ast.cpp \
     secondwidgetebook.cpp
@@ -22,6 +23,7 @@ HEADERS += \
     Littletool.h \
     Physics.h \
     ast.h \
+    fish.h \
     secondwidgetebook.h
 
 FORMS += \
@@ -29,6 +31,7 @@ FORMS += \
     Littletool.ui \
     Physics.ui \
     ast.ui \
+    fish.ui \
     secondwidgetebook.ui
 
 # Default rules for deployment.

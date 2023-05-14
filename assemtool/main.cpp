@@ -6,6 +6,7 @@
 #include<ui_English.h>
 #include<secondwidgetebook.h>
 #include<Littletool.h>
+#include<fish.h>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -14,6 +15,7 @@ int main(int argc, char *argv[])
     Physics Physicspage;
     secondwidgetebook sec;
     Littletool Littlepage;
+    fish fishpage;
     Englishpage.setWindowTitle("英语");
     Physicspage.setWindowTitle("物理");
     sec.setWindowTitle("Ebook");
@@ -27,7 +29,7 @@ int main(int argc, char *argv[])
 //按下英语界面的返回，返回到主界面
     QObject::connect(&Englishpage,SIGNAL(backtomain()),&Mainpage,SLOT(recieveSFEback()));
 
-
+    QObject::connect(&fishpage,SIGNAL(backtoomain()),&Mainpage,SLOT(refi()));
 
     QObject::connect(&Mainpage,SIGNAL(gotoPhysics()),&Physicspage,SLOT(showPhysics()));
 
@@ -38,6 +40,8 @@ int main(int argc, char *argv[])
     QObject::connect(&Littlepage,SIGNAL(goback()),&Mainpage,SLOT(recilb()));
 
     QObject::connect(&sec,SIGNAL(GM()),&Mainpage,SLOT(recisec()));
+
+    QObject::connect(&Mainpage,SIGNAL(gotofi()),&fishpage,SLOT(showfish()));
     ast w;
     w.show();
     return a.exec();
