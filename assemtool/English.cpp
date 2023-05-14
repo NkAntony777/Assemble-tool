@@ -92,6 +92,7 @@ void English::on_bingchatbutton_clicked()
 
     QUrl url("https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx");
        QDesktopServices::openUrl(url);
+
 }
 
 

@@ -59,3 +59,10 @@ void secondwidgetebook::on_GooSchButton_clicked()
     QDesktopServices::openUrl(url);
 }
 
+
+void secondwidgetebook::on_pushButton_clicked()
+{
+    this-> hide();
+    emit GM();
+}
+

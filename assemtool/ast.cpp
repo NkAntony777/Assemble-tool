@@ -51,3 +51,15 @@ void ast::on_littletool_clicked()
     emit gotoLitt();
 }
 
+void ast::recilb()
+{
+
+    this->show();
+}
+
+
+void ast::recisec()
+{
+    this->show();
+
+}

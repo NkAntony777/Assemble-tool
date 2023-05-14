@@ -27,7 +27,8 @@ private slots:
     void on_pushButton_3_clicked();
 
     void on_littletool_clicked();
-
+    void recilb();
+    void recisec();
 signals:
     void gotoEnglish();
     void gotoPhysics();

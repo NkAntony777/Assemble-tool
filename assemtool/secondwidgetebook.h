@@ -4,7 +4,7 @@
 
 
 
-#include <QDialog>>
+#include <QDialog>
 
 namespace Ui {
 class secondwidgetebook;
@@ -31,6 +31,10 @@ private slots:
 
     void on_GooSchButton_clicked();
 
+    void on_pushButton_clicked();
+signals:
+
+    void GM();
 private:
     Ui::secondwidgetebook *ui;
 };

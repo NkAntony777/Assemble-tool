@@ -45,3 +45,18 @@ void Littletool::on_pushButton_3_clicked()
 
 }
 
+
+void Littletool::on_pushButton_4_clicked()
+{
+    this->hide();
+    emit goback();
+}
+
+
+void Littletool::on_pushButton_5_clicked()
+{
+    QUrl url("https://scholar.google.com/");
+    QDesktopServices::openUrl(url);
+
+}
+

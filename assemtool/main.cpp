@@ -34,6 +34,10 @@ int main(int argc, char *argv[])
     QObject::connect(&Physicspage,SIGNAL(gobackMain()),&Mainpage,SLOT(recieveSFFback()));
 
     QObject::connect(&Mainpage,SIGNAL(gotoLitt()),&Littlepage,SLOT(ReciMain()));
+
+    QObject::connect(&Littlepage,SIGNAL(goback()),&Mainpage,SLOT(recilb()));
+
+    QObject::connect(&sec,SIGNAL(GM()),&Mainpage,SLOT(recisec()));
     ast w;
     w.show();
     return a.exec();

@@ -23,7 +23,7 @@ Physics::Physics(QWidget *parent)
 
 void Physics::on_wuliButton_clicked()
 {
-    QUrl folderUrl = QUrl::fromLocalFile("C:\\Users\\Anthony\\source\\repos\\物理不确定度\\物理不确定度\\x64\\Debug"); // 创建一个表示C盘根目录的QUrl对象
+    QUrl folderUrl = QUrl::fromLocalFile("C:\\Users\\Anthony\\source\\repos\\物理不确定度计算\\x64\\Debug");
 
     bool result = QDesktopServices::openUrl(folderUrl); // 打开文件夹
 
